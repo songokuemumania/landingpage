@@ -19,6 +19,19 @@
     
     background-color: #1f2937;
     height: 400px;
+    display: flex;
+    
+    
+}
+.part1top {
+    
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
 }
 
 .part2 {
