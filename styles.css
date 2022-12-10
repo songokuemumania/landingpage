@@ -1,41 +1,75 @@
 
 @font-face {
-    font-family: robotofont;
-    src: url(fonts/Roboto-Regular.ttf);
+
     font-family: robotofont-thick;
     src: url(fonts/Roboto-Black.ttf);
-
-
 }
-
-.maindiv 
-{
+@font-face {
     font-family: robotofont;
+    src: url(fonts/Roboto-Regular.ttf);
 
-  
 }
+
+.maindiv
+{
+    font-family: robotofont; 
+}
+.button1 {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #3882f6
+   
+  }
 
 .part1 {
     
     background-color: #1f2937;
-    height: 400px;
+    height: 500px;
     display: flex;
+    flex-direction: column;   
     
-    
+        
 }
 .part1top {
+   
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    margin-left: 100px;
+    margin-right: 100px;   
+    
+}
+img {
+    object-fit: cover;
+}
+
+.part1bottom {
     
     display: flex;
     justify-content: space-between;
     flex: 1 1 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 100px;
+    margin-right: 100px;  
+    align-items: stretch;  
     
-
 }
-
+.awesome  {
+color: #f9faf8;
+}
+.text1 {
+color: #e5e7eb;
+}
 .part2 {
-    font-family:robotofont-thick;
+    
     background-color: #ffffff;
     height: 400px;
     font-weight: 1200;
