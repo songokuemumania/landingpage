@@ -7,8 +7,15 @@
 @font-face {
     font-family: robotofont;
     src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoitalic;
+    src: url(fonts/Roboto-Italic.ttf);
 
 }
+
+
 
 .maindiv
 {
@@ -71,16 +78,70 @@ color: #e5e7eb;
 .part2 {
     
     background-color: #ffffff;
-    height: 400px;
+    height: 600px;
     font-weight: 1200;
     color: #1f2937 ;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+.imgcontainer div {
+
+  
+    font-size: 16px;
+    text-align: center;
+    flex: 1 1 auto;
+
+}
+.img2 {
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 5px;
+    flex: 1 1 auto;
 }
 
 .part3 {
     
     background-color: #e5e7eb;
     height: 400px;
+    text-justify: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: robotofont-thick;
+    
+}
+
+.part3 div {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+.quote {
+    font-family: robotoitalic;
+    font-size: 35px;
+    padding-top: 100px;
+
 }
 .part4 {
     
