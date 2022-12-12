@@ -36,6 +36,10 @@
     background-color: #3882f6
    
   }
+  .button2 {
+    
+    border: 2px solid white;
+  }
 
 .part1 {
     
@@ -50,11 +54,28 @@
    
     display: flex;
     justify-content: space-between;
-    flex: 1 1 auto;
+    flex: 0;
     margin-left: 100px;
     margin-right: 100px;   
+    height: 35px;
+    color: white;
     
 }
+.rightheader a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 35px;
+    
+}
+.rightheader {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
 img {
     object-fit: cover;
 }
@@ -67,6 +88,8 @@ img {
     margin-left: 100px;
     margin-right: 100px;  
     align-items: stretch;  
+    margin-top: 100px;
+    overflow: hidden;
     
 }
 .awesome  {
@@ -95,23 +118,28 @@ color: #e5e7eb;
     margin-right: 100px;
 
 
+
+
+
 }
 .imgcontainer div {
 
-  
     font-size: 16px;
     text-align: center;
-    flex: 1 1 auto;
+    flex: 1 1 0;
+    overflow: hidden;
 
 }
 .img2 {
-    width: 200px;
-    height: 180px;
+ 
+    width: 230px;
+    height: 200px;
     border-radius: 10px;
     border-color: #3882f6;
     border-style: solid;
     border-width: 5px;
-    flex: 1 1 auto;
+    flex: 1;
+    
 }
 
 .part3 {
@@ -146,6 +174,40 @@ color: #e5e7eb;
 .part4 {
     
     
-    height: 400px;
+    height: 500px;
 }
+.part4white
+{
+   height: 400px; 
+   background-color: white ;
+   display: flex;
+}
+
+.part4white .bluebackground 
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    flex: 1 1 auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+.part4bottom
+{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
 
